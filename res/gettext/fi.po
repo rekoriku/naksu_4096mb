@@ -1,0 +1,545 @@
+#, c-format
+msgid "0 %% (this can take a while...)"
+msgstr "0 % (tässä voi mennä hetki...)"
+
+msgid "A new Abitti server was created"
+msgstr "Uusi Abitti-palvelin on luotu"
+
+msgid "A new exam server was created"
+msgstr "Uusi yo-palvelin on luotu"
+
+msgid "Abitti Exam"
+msgstr "Abitti-koe"
+
+#, c-format
+msgid "Abitti Exam (%s)"
+msgstr "Abitti-koe (%s)"
+
+msgid "Abitti server"
+msgstr "Abitti-palvelin"
+
+#, c-format
+msgid "Backup done: %s"
+msgstr "Varmuuskopio valmis: %s"
+
+msgid "Backup failed: %v"
+msgstr "Varmuuskopiointi epäonnistui: %v"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Cannot open MEB share directory since it does not exist"
+msgstr ""
+"Virtuaalisen siirtotikun avaaminen epäonnistui. Tarkista, että palvelin on "
+"asennettu ja/tai hakemisto on olemassa."
+
+msgid ""
+"Cannot send logs because there is no Internet connection. Logs are in a zip "
+"archive in the ktp-jako folder."
+msgstr ""
+"Lokitietoja ei voi lähettää, koska yhteys Internetiin ei toimi. Lokitiedot "
+"löytyvät zip-pakettina ktp-jako -kansiosta."
+
+msgid "Chdir ~"
+msgstr ""
+
+msgid "Checking backup path..."
+msgstr "Tutkitaan varmuuskopiohakemistoa..."
+
+msgid "Checking disk image..."
+msgstr "Tarkastetaan levynkuvaa..."
+
+msgid "Checking existing file..."
+msgstr "Tutkitaan tiedostoa..."
+
+msgid "Checking for FAT32 filesystem..."
+msgstr "Etsitään FAT32-tiedostojärjestelmää..."
+
+msgid "Checking for new versions of Naksu..."
+msgstr "Tarkistetaan Naksu-päivityksiä..."
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Contacting server"
+msgstr "Avataan yhteyttä palvelimelle"
+
+msgid "Copy to clipboard"
+msgstr "Kopioi leikepöydälle"
+
+#, c-format
+msgid "Copying logs: %s"
+msgstr "Lokitietoja kopioidaan: %s"
+
+msgid "Could not calculate free disk size: %v"
+msgstr "Vapaan levytilan määrän laskenta epäonnistui: %v"
+
+msgid "Could not create directory: %v"
+msgstr "Hakemiston luominen epäonnistui: %v"
+
+msgid ""
+"Could not execute VBoxManage. Are you sure you have installed Oracle "
+"VirtualBox?"
+msgstr ""
+"Ohjelman VBoxManage käynnistys epäonnistui. Oletko varma, että koneeseen on "
+"asennettu Oracle VirtualBox?"
+
+msgid "Could not get version string for a new server: %v"
+msgstr "Uuden palvelinversiotiedon haku epäonnistui: %v"
+
+msgid ""
+"Could not install server as we could not detect whether existing VM is "
+"installed: %v"
+msgstr ""
+"Palvelimen asennus epäonnistui, koska olemassaolevan palvelinasennuksen "
+"tutkiminen epäonnistui: %v"
+
+msgid ""
+"Could not install server as we could not detect whether existing VM is "
+"running: %v"
+msgstr ""
+"Palvelimen asennus epäonnistui, koska olemassaolevan palvelimen päälläoloa "
+"ei saatu tutkittua: %v"
+
+msgid "Could not open MEB share directory"
+msgstr "Hakemiston ktp-jako avaaminen epäonnistui"
+
+msgid "Could not remove current VM before installing new one: %v"
+msgstr ""
+"Olemassaolevan palvelimen poistaminen uuden palvelimen alta epäonnistui: %v"
+
+msgid ""
+"Could not start server as we could not detect whether existing VM is "
+"installed: %v"
+msgstr ""
+"Palvelinta ei voi käynnistää, koska olemassa olevan palvelimen tutkinta ei "
+"onnistu: %v"
+
+msgid ""
+"Could not start server as we could not detect whether existing VM is "
+"running: %v"
+msgstr ""
+"Palvelinta ei voitu käynnistää, koska olemassa olevan palvelin käynnissäoloa "
+"ei saatu selville: %v"
+
+#, c-format
+msgid "Could not write test backup file %s. Try another location."
+msgstr ""
+"Varmuuskopion kirjoittaminen tiedostoon %s epäonnistui. Kokeile toista "
+"tallennuspaikkaa."
+
+msgid "Creating New VM"
+msgstr "Uutta virtuaalikonetta luodaan"
+
+msgid "Creating ~/ktp"
+msgstr "Luodaan ~/ktp"
+
+msgid "Creating ~/ktp-jako"
+msgstr "Luodaan ~/ktp-jako"
+
+#, c-format
+msgid "Current version: %s"
+msgstr "Asennettu versio: %s"
+
+msgid "DANGER! Annihilate your server:"
+msgstr "VAARA! Palvelimen tuhoaminen:"
+
+msgid "Deleting ~/.VirtualBox"
+msgstr "Poistetaan ~/.VirtualBox"
+
+msgid "Deleting ~/VirtualBox VMs"
+msgstr "Poistetaan ~/VirtualBox VMs"
+
+msgid "Desktop"
+msgstr "Työpöytä"
+
+msgid "Disk image checked"
+msgstr "Levynkuva on tarkastettu"
+
+msgid "Do you wish to remove all exams?"
+msgstr "Haluatko poistaa kaikki kokeet?"
+
+msgid "Do you wish to remove the server?"
+msgstr "Halutko poistaa palvelimen?"
+
+msgid "Done copying"
+msgstr "Lokitiedot kopioitu"
+
+msgid "Done zipping"
+msgstr "Lokitiedot pakattu"
+
+msgid "Downloaded image is corrupted. Try again."
+msgstr "Ladattu levynkuva on viallinen. Yritä uudelleen."
+
+msgid "Downloading server image"
+msgstr "Ladataan palvelimen levynkuvaa"
+
+msgid "Enter Exam Server install passphrase:"
+msgstr "Syötä Yo-palvelimen asennuskoodi:"
+
+msgid "Enter install passphrase for the exam server:"
+msgstr "Syötä asennuskoodi Yo-palvelimen asentamiseksi:"
+
+msgid "Error"
+msgstr "Virhe"
+
+#, c-format
+msgid "Error sending logs: %s"
+msgstr "Virhe lokitietojen lähetyksessä: %s"
+
+msgid "Error while removing server: %v"
+msgstr "Palvelimen poistaminen epäonnistui: %v"
+
+#, c-format
+msgid "Error zipping logs: %s"
+msgstr "Virhe lokitietojen pakkaamisessa: %s"
+
+msgid "Exams were removed successfully."
+msgstr "Kokeet poistettiin onnistuneesti."
+
+msgid "Exams, responses and logs in the server will be irreversibly deleted."
+msgstr "Kokeet, suoritukset ja lokitiedot poistetaan peruuttamattomasti."
+
+msgid "Failed to calculate free disk size: %v"
+msgstr "Vapaan levytilan määrän laskenta epäonnistui: %v"
+
+msgid "Failed to calculate free disk space: %v"
+msgstr "Vapaan levytilan määrän laskenta epäonnistui: %v"
+
+msgid "Failed to create new VM: %v"
+msgstr "Uuden virtuaalikoneen luominen epäonnistui: %v"
+
+msgid "Failed to get new VM image: %v"
+msgstr "Levynkuvan lataaminen epäonnistui: %v"
+
+msgid "Failed to remove directory %s: %v"
+msgstr "Hakemiston %s poistaminen epäonnistui: %v"
+
+msgid "Failed to remove exams: %v"
+msgstr "Kokeiden poistaminen epäonnistui: %v"
+
+msgid "Failed to remove raw image file %s: %v"
+msgstr "Levynkuvatiedoston %s poistaminen epäonnistui: %v"
+
+msgid "Failed to start server: %v"
+msgstr "Palvelimen käynnistäminen epäonnistui: %v"
+
+#, c-format
+msgid "File %s already exists"
+msgstr "Tiedosto %s on jo olemassa"
+
+msgid "Filename for Abitti support:"
+msgstr "Tiedostonimi Abitti-tuelle:"
+
+msgid "Getting Image from the Cloud"
+msgstr "Lataan levynkuvaa"
+
+msgid "Getting disk location..."
+msgstr "Etsitään levyn sijaintia..."
+
+msgid ""
+"Hardware virtualisation (VT-x or AMD-V) is disabled. Please enable it before "
+"continuing."
+msgstr ""
+"Laitetason virtualisointi (VT-x tai AMD-V) on kytketty pois päältä. Kytke se "
+"päälle koneen asetuksista."
+
+msgid "Home directory"
+msgstr "Kotihakemisto"
+
+msgid "Info"
+msgstr "Tiedoksi"
+
+msgid "Install"
+msgstr "Asenna"
+
+msgid "Install/update server for:"
+msgstr "Asenna tai päivitä palvelin:"
+
+msgid ""
+"It appears your CPU does not support hardware virtualisation (VT-x or AMD-V)."
+msgstr ""
+"Näyttää siltä, että prosessorisi ei tue laitetason virtualisointia (VT-x tai "
+"AMD-V)."
+
+msgid "It is recommended to back up your server before removing exams."
+msgstr ""
+"On suositeltavaa ottaa palvelimesta varmuuskopio ennen kokeiden poistamista."
+
+msgid "It is recommended to back up your server before removing server."
+msgstr "On suositeltavaa ottaa palvelimesta varmuuskopio ennen poistamista."
+
+msgid "Logs sent!"
+msgstr "Lokitiedot lähetetty!"
+
+msgid "Make Exam Server Backup"
+msgstr "Tee palvelimesta varmuuskopio"
+
+msgid "Matric Exam server"
+msgstr "Yo-palvelin"
+
+msgid "Matriculation Exam"
+msgstr "Yo-koe"
+
+#, c-format
+msgid ""
+"Naksu encountered an error while trying to fix a problem with VirtualBox. "
+"VirtualBox configuration file %s has been moved to %s. Manually rename it to "
+"%s to fix this."
+msgstr ""
+"VirtualBox-ongelman korjaaminen epäonnistui. VirtualBoxin asetustiedosto %s "
+"on nimetty uudelleen (%s). Uudelleen nimeä asetustiedosto käsin nimelle %s "
+"korjataksesi ongelman."
+
+msgid "Naksu has been automatically updated. Please restart Naksu."
+msgstr ""
+"Naksu on päivitetty automaattisesti. Ole hyvä ja käynnistä Naksu uudelleen."
+
+msgid ""
+"Naksu has update available, but your version of Naksu has updates disabled. "
+"Please update or ask your administrator to update Naksu."
+msgstr ""
+"Naksulle on päivitys tarjossa, mutta voimassa oleva asetus estää päivitysten "
+"lataamisen. Päivitä tai pyydä koneen ylläpitäjää päivittämään Naksu."
+
+msgid "Naksu self-update needs network connection"
+msgstr "Naksun päivitys tarvitsee verkkoyhteyden"
+
+#, c-format
+msgid ""
+"Naksu update failed. Maybe you don't have network connection?\n"
+"\n"
+"Error: %s"
+msgstr ""
+"Naksun päivitys epäonnistui. Ehkä sinulla ei ole juuri nyt verkkoyhteyttä?\n"
+"\n"
+"Virhe: %s"
+
+msgid "Network device:"
+msgstr "Verkkolaite:"
+
+#, c-format
+msgid "Network speed is too low (%d Mbit/s)"
+msgstr "Verkon nopeus ei riitä (%d Mbit/s)"
+
+msgid "Network status: "
+msgstr "Verkon tila: "
+
+msgid "No network connection"
+msgstr "Ei verkkoyhteyttä"
+
+msgid "No server has been installed."
+msgstr "Palvelinta ei ole asennettu."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open virtual USB stick (ktp-jako)"
+msgstr "Avaa virtuaalinen siirtotikku (ktp-jako)"
+
+msgid "Opening file"
+msgstr "Avataan tiedostoa"
+
+msgid "Please check the install passphrase"
+msgstr "Tarkista palvelimen asennuskoodi"
+
+msgid "Please enter install passphrase to install the exam server"
+msgstr "Ole hyvä ja syötä asennuskoodi asentaaksesi Yo-palvelimen"
+
+msgid "Please select target path"
+msgstr "Valitse tallennuspaikka"
+
+msgid ""
+"Please select the network device which is connected to your exam network."
+msgstr "Valitse verkkolaite, joka on kytketty koeverkkoon."
+
+msgid "Please stop the current server before installing a new one"
+msgstr ""
+"Ole hyvä ja sammuta olemassaoleva palvelin ennen uuden palvelimen asennusta"
+
+msgid "Please turn Windows Hypervisor off as it may cause problems."
+msgstr ""
+"Ole hyvä ja kytke Windows Hypervisor pois päältä, koska se voi aiheuttaa "
+"ongelmia."
+
+msgid "Please wait, writing backup..."
+msgstr "Hetkinen, varmuuskopioidaan..."
+
+msgid "Preparing..."
+msgstr "Valmistellaan..."
+
+msgid "Profile directory"
+msgstr "Profiilihakemisto"
+
+msgid "Remove Exams"
+msgstr "Poista kokeet"
+
+msgid "Remove Exams restores server to its initial status."
+msgstr "Poista kokeet -toiminto palauttaa palvelimen alkutilaansa."
+
+msgid "Remove Server"
+msgstr "Poista palvelin"
+
+msgid "Removing exams. This takes a while."
+msgstr "Poistetaan kokeita. Tämä vie hetken."
+
+msgid "Removing server destroys it and all downloaded disk images."
+msgstr "Palvelimen poistaminen tuhoaa sen ja kaikki ladatut levynkuvat."
+
+msgid "Removing temporary raw image file"
+msgstr "Väliaikaista levynkuvaa poistetaan"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Send logs to Abitti support"
+msgstr "Lähetä lokitiedot Abitti-tukeen"
+
+msgid "Sending logs"
+msgstr "Lokitietoja lähetetään"
+
+#, c-format
+msgid "Sending logs: %d %%"
+msgstr "Lokitietoja lähetetään: %d %%"
+
+msgid "Server image downloaded"
+msgstr "Palvelimen levynkuva on ladattu"
+
+msgid "Server networking hardware:"
+msgstr "Palvelimen verkkolaite:"
+
+msgid "Server was removed successfully."
+msgstr "Palvelin poistettiin onnistuneesti."
+
+msgid "Show management features"
+msgstr "Näytä hallintaominaisuudet"
+
+#, c-format
+msgid "Start %s"
+msgstr "Käynnistä %s"
+
+msgid "Start Exam Server"
+msgstr "Käynnistä Yo-palvelin"
+
+msgid "Start by installing a server: Show management features"
+msgstr "Aloita asentamalla palvelin: Näytä hallintaominaisuudet"
+
+msgid "Starting to uncompress raw image"
+msgstr "Aloitetaan pakatun levynkuvan purkamista"
+
+msgid "Temporary files"
+msgstr "Tilapäishakemisto"
+
+msgid ""
+"The backup file is too large for a FAT32 filesystem. Please reformat the "
+"backup disk as exFAT."
+msgstr ""
+"Varmuuskopio on liian suuri talletettavaksi FAT32-tiedostojärjestelmäään. "
+"Alusta varmuuskopiolevy uudelleen exFAT-tiedostojärjestelmällä."
+
+msgid "The server appears to be running but we remove it as you requested."
+msgstr "Palvelin on käynnissä, mutta se poistetaan silti."
+
+msgid "The server is already running."
+msgstr "Palvelin on jo käynnissä."
+
+msgid "Turn Naksu self updates back on"
+msgstr "Kytke Naksun automattipäivitys päälle"
+
+msgid "Uncompressing finished"
+msgstr "Purkaminen on valmis"
+
+msgid "Uncompressing image..."
+msgstr "Pakattua levynkuvaa puretaan..."
+
+#, c-format
+msgid "Update available: %s"
+msgstr "Päivitys saatavilla: %s"
+
+msgid "Virtual machine was started"
+msgstr "Virtuaalikone on käynnistetty"
+
+msgid "Wait..."
+msgstr "Odota..."
+
+msgid "Warning"
+msgstr "Varoitus"
+
+msgid ""
+"We could not detect whether existing VM is running: %v, but continued "
+"removing the server as you requested."
+msgstr ""
+"Nykyisen virtuaalipalvelimen käynnissäoloa ei saatu selville (%v), mutta "
+"palvelimen poistamista jatketaan."
+
+msgid "Wireless connection"
+msgstr "Langaton yhteys"
+
+msgid "Yes, Remove"
+msgstr "Kyllä, poista"
+
+msgid ""
+"You are starting Matriculation Examination server with an Internet "
+"connection."
+msgstr ""
+"Olet käynnistämässä yo-palvelinta, vaikka palvelimella on internet-yhteys."
+
+#, c-format
+msgid "You have selected network device '%s' which is not available."
+msgstr "Olet valinnut verkkolaitteen '%s', jota ei löydy."
+
+#, c-format
+msgid ""
+"Your VirtualBox version is old. Consider upgrading to %s or newer to avoid "
+"problems."
+msgstr ""
+"VirtualBox-versio on liian vanha. Sinun kannattaa päivittää se ainakin "
+"versioon %s."
+
+#, c-format
+msgid ""
+"Your VirtualBox version is too new. Consider downgrading to %s to avoid "
+"problems."
+msgstr ""
+"VirtualBox-versio on liian uusi. Sinun kannattaa asentaa vanhempi versio, "
+"enintään %s."
+
+#, c-format
+msgid "Your free disk size is getting low (%s)"
+msgstr "Vapaan levytilasi määrä on alhainen (%s)"
+
+#, c-format
+msgid ""
+"Your free disk size is getting low (%s). If backup process fails please "
+"consider freeing some disk space."
+msgstr ""
+"Levytilasi on käymässä vähiin (%s). Jos varmuuskopio epäonnistui, sinun "
+"kannattaa vapauttaa levytilaa."
+
+#, c-format
+msgid "Zipping logs: %d %%"
+msgstr "Lokitietoja pakataan: %d %%"
+
+msgid "naksu: Install Exam Server"
+msgstr "naksu: Asenna Yo-palvelin"
+
+msgid "naksu: Remove Exams"
+msgstr "naksu: Poista kokeet"
+
+msgid "naksu: Remove Server"
+msgstr "naksu: Poista palvelin"
+
+msgid "naksu: SaveTo"
+msgstr "naksu: Tallennuspaikka"
+
+msgid "naksu: Send Logs"
+msgstr "naksu: Lähetä lokitiedot"
+
+msgid "showvminfo"
+msgstr ""
+
+msgid "vboxmanageversion"
+msgstr ""
+
+msgid "vmstate"
+msgstr ""

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testsuites>
+  <testsuite name="naksu/mebroutines/backup" tests="2" errors="0" failures="0" skip="0">
+    <testcase classname="naksu/mebroutines/backup" name="TestOldStyleLsblkParsing" time="0.00">
+
+    </testcase>
+    <testcase classname="naksu/mebroutines/backup" name="TestNewStyleLsblkParsing" time="0.00">
+
+    </testcase>
+  </testsuite>
+  <testsuite name="naksu/network" tests="3" errors="0" failures="0" skip="0">
+    <testcase classname="naksu/network" name="TestIgnoreExtInterfaceLinux" time="0.00">
+
+    </testcase>
+    <testcase classname="naksu/network" name="TestIgnoreExtInterfaceWindows" time="0.00">
+
+    </testcase>
+    <testcase classname="naksu/network" name="TestIgnoreExtInterfaceDarwin" time="0.00">
+
+    </testcase>
+  </testsuite>
+  <testsuite name="naksu/box/download" tests="2" errors="0" failures="0" skip="0">
+    <testcase classname="naksu/box/download" name="TestCleanSHA256ChecksumString" time="0.00">
+
+    </testcase>
+    <testcase classname="naksu/box/download" name="TestGetSHA256ChecksumFromFile" time="0.00">
+
+    </testcase>
+  </testsuite>
+</testsuites>
