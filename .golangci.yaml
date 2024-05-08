@@ -1,0 +1,62 @@
+linters-settings:
+  gocyclo:
+    min-complexity: 10
+
+linters:
+  disable-all: true
+  enable:
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - containedctx
+    - contextcheck
+    - decorder
+    - depguard
+    - dogsled
+    - dupl
+    - errchkjson
+    - errcheck
+    - errname
+    - errorlint
+    - exhaustive
+    - exhaustruct
+    - funlen
+    - forcetypeassert
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocritic
+    - gocyclo
+    - gofmt
+    - goimports
+    - gomnd
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - maintidx
+    - misspell
+    - nakedret
+    - nestif
+    - nilnil
+    - nlreturn
+    - noctx
+    - revive
+    - staticcheck
+    - stylecheck
+    - tenv
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varnamelen
+    - whitespace
+
+issues:
+  exclude-rules:
+    - path: 'xlate/xlate_(..).go'
+      linters:
+        - funlen
+    - path: 'ui.go'
+      linters:
+        - funlen
