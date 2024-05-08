@@ -2,7 +2,9 @@
 
 <checkstyle version="5.0">
   <file name="box/box.go">
-    <error column="0" line="34" message="File is not `gofmt`-ed with `-s`" severity="error" source="gofmt">
+    <error column="28" line="34" message="commentFormatting: put a space between `//` and comment text" severity="error" source="gocritic">
+    </error>
+    <error column="39" line="54" message="commentFormatting: put a space between `//` and comment text" severity="error" source="gocritic">
     </error>
   </file>
 </checkstyle>
