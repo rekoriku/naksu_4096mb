@@ -31,7 +31,7 @@ const (
 	boxMinimumNumberOfCores = 2
 	boxMemorySizePercentage = 0.74        // 0.74 = box RAM size will be 74% of the host RAM size
 	boxLowMemoryLimit       = 8192 - 1024 // 8G minus 1G for display adapter
-	boxMemorySizeRaw		= 4096
+	boxMemorySizeRaw		= 4096		//this is just now returned from calculateboxmemory directly
 )
 
 type boxStatus struct {
@@ -51,7 +51,7 @@ func calculateBoxCPUs() (int, error) {
 		return 0, err
 	}
 
-	calculatedCores := detectedCores - 1
+	calculatedCores := detectedCores / 2	//calculated cores half of system cores
 
 	if calculatedCores <= boxMinimumNumberOfCores {
 		return boxMinimumNumberOfCores, nil
