@@ -57,11 +57,11 @@ func calculateBoxCPUs() (int, error) {
 		return boxMinimumNumberOfCores, nil
 	}
 	if calculatedCores >= 4{
-		return 4, nil
+		calculatedCores = 4
 	}
 	
 
-	return 2, nil
+	return calculatedCores, nil
 }
 
 func calculateBoxMemory() (uint64, error) {

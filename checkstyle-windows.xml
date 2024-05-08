@@ -6,9 +6,5 @@
     </error>
     <error column="0" line="59" message="File is not `gofmt`-ed with `-s`" severity="error" source="gofmt">
     </error>
-    <error column="10" line="60" message="mnd: Magic number: 4, in &lt;return&gt; detected" severity="error" source="gomnd">
-    </error>
-    <error column="9" line="64" message="mnd: Magic number: 2, in &lt;return&gt; detected" severity="error" source="gomnd">
-    </error>
   </file>
 </checkstyle>
