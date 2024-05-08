@@ -51,11 +51,15 @@ func calculateBoxCPUs() (int, error) {
 		return 0, err
 	}
 
-	calculatedCores := detectedCores / 2	//calculated cores half of system cores
+	calculatedCores := detectedCores - 1
 
 	if calculatedCores <= boxMinimumNumberOfCores {
 		return boxMinimumNumberOfCores, nil
 	}
+	if calculatedCores > 4{
+		return 4, nil
+	}
+	
 
 	return calculatedCores, nil
 }
