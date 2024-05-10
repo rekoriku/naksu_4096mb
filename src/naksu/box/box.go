@@ -51,16 +51,12 @@ func calculateBoxCPUs() (int, error) {
 		return 0, err
 	}
 
-	calculatedCores := detectedCores - 1
+	calculatedCores := detectedCores
 
 	if calculatedCores <= boxMinimumNumberOfCores {
 		return boxMinimumNumberOfCores, nil
 	}
-	if calculatedCores >= 4{
-		calculatedCores = 4
-	}
 	
-
 	return calculatedCores, nil
 }
 
