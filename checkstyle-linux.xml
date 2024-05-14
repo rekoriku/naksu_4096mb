@@ -4,8 +4,6 @@
   <file name="box/box.go">
     <error column="40" line="34" message="commentFormatting: put a space between `//` and comment text" severity="error" source="gocritic">
     </error>
-    <error column="37" line="54" message="mnd: Magic number: 2, in &lt;operation&gt; detected" severity="error" source="gomnd">
-    </error>
   </file>
   <file name="ui.go">
     <error column="2" line="131" message="commentFormatting: put a space between `//` and comment text" severity="error" source="gocritic">
