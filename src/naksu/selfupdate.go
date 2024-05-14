@@ -21,7 +21,7 @@ var isOutOfDate bool
 func RunSelfUpdate(currentVersionStr string) {
 	// Run auto-update
 	if doReleaseSelfUpdate(currentVersionStr) {
-		mebroutines.ShowTranslatedInfoMessage("Naksu has been automatically updated. Please restart Naksu.")
+		mebroutines.ShowTranslatedInfoMessage("This version of Naksu does not self update.")
 	}
 	if WarnUserAboutStaleVersionIfUpdateDisabled() {
 		mebroutines.ShowTranslatedInfoMessage("Naksu has update available, but your version of Naksu has updates disabled. Please update or ask your administrator to update Naksu.")
@@ -60,7 +60,7 @@ func doReleaseSelfUpdate(currentVersionStr string) bool {
 		return false
 	}
 
-	latest, err := selfupdate.UpdateSelf(currentVersion, "digabi/naksu")
+	/*latest, err := selfupdate.UpdateSelf(currentVersion, "digabi/naksu")
 	progress.SetMessage("")
 	if err != nil {
 		mebroutines.ShowTranslatedWarningMessage("Naksu update failed. Maybe you don't have network connection?\n\nError: %s", err)
@@ -74,7 +74,7 @@ func doReleaseSelfUpdate(currentVersionStr string) bool {
 		return false
 	}
 	log.Debug("Successfully updated to version: %s", latest.Version)
-
+	*/
 	return true
 }
 

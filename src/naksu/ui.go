@@ -128,7 +128,7 @@ var extInterfaces []constants.AvailableSelection
 
 func createMainWindowElements() {
 	// Define main window
-	buttonSelfUpdateOn = ui.NewButton("Turn Naksu self updates back on")
+	//buttonSelfUpdateOn = ui.NewButton("Turn Naksu self updates back on")
 	buttonStartServer = ui.NewButton("Start Exam Server")
 	buttonInstallAbittiServer = ui.NewButton("Abitti Exam")
 	buttonInstallExamServer = ui.NewButton("Matriculation Exam")
