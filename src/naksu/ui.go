@@ -37,7 +37,7 @@ var window *ui.Window
 
 var environmentStatus constants.EnvironmentStatus
 
-var buttonSelfUpdateOn *ui.Button
+// var buttonSelfUpdateOn *ui.Button
 var buttonStartServer *ui.Button
 var buttonInstallAbittiServer *ui.Button
 var buttonInstallExamServer *ui.Button
