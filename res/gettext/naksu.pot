@@ -266,22 +266,12 @@ msgid ""
 "%s to fix this."
 msgstr ""
 
-msgid "Naksu has been automatically updated. Please restart Naksu."
-msgstr ""
-
 msgid ""
 "Naksu has update available, but your version of Naksu has updates disabled. "
 "Please update or ask your administrator to update Naksu."
 msgstr ""
 
 msgid "Naksu self-update needs network connection"
-msgstr ""
-
-#, c-format
-msgid ""
-"Naksu update failed. Maybe you don't have network connection?\n"
-"\n"
-"Error: %s"
 msgstr ""
 
 msgid "Network device:"
@@ -407,7 +397,7 @@ msgstr ""
 msgid "The server is already running."
 msgstr ""
 
-msgid "Turn Naksu self updates back on"
+msgid "This version of Naksu does not self update."
 msgstr ""
 
 msgid "Uncompressing finished"
