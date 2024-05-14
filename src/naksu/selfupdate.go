@@ -21,7 +21,7 @@ var isOutOfDate bool
 func RunSelfUpdate(currentVersionStr string) {
 	// Run auto-update
 	if doReleaseSelfUpdate(currentVersionStr) {
-		mebroutines.ShowTranslatedInfoMessage("This version of Naksu does not self update.")
+		mebroutines.ShowTranslatedInfoMessage("This version of Naksu does not support automatic update.")
 	}
 	if WarnUserAboutStaleVersionIfUpdateDisabled() {
 		mebroutines.ShowTranslatedInfoMessage("Naksu has update available, but your version of Naksu has updates disabled. Please update or ask your administrator to update Naksu.")

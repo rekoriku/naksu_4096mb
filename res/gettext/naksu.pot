@@ -397,7 +397,7 @@ msgstr ""
 msgid "The server is already running."
 msgstr ""
 
-msgid "This version of Naksu does not self update."
+msgid "This version of Naksu does not support automatic update."
 msgstr ""
 
 msgid "Uncompressing finished"

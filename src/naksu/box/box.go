@@ -29,7 +29,7 @@ const (
 	boxVRamSize             = 24        // Video RAM size in megs
 	boxSnapshotName         = "Installed"
 	boxMinimumNumberOfCores = 2
-	boxMemorySizePercentage = 0.74        // 0.74 = box RAM size will be 74% of the host RAM size
+	boxMemorySizePercentage = 0.74        // 0.74 = box RAM size will be 74% boxMemorySizeRaw is used over this
 	boxLowMemoryLimit       = 8192 - 1024 // 8G minus 1G for display adapter
 	boxMemorySizeRaw        = 4096        //this is just now returned from calculateboxmemory directly
 )
