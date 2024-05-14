@@ -187,7 +187,7 @@ func createMainWindowElements() {
 	boxBasic.SetPadded(true)
 	boxBasic.Append(boxBasicUpper, false)
 	boxBasic.Append(labelStatus, true)
-	boxBasic.Append(buttonSelfUpdateOn, false)
+	//boxBasic.Append(buttonSelfUpdateOn, false)
 	boxBasic.Append(buttonStartServer, false)
 	boxBasic.Append(buttonMebShare, false)
 	boxBasic.Append(labelExtNic, false)
@@ -421,7 +421,7 @@ func mainUIStatusHandler(currentMainUIStatus mainUIStatusType) { //nolint:gocycl
 		element *ui.Button
 		enable  bool
 	}{
-		{buttonSelfUpdateOn, config.IsSelfUpdateDisabled()},
+		//{buttonSelfUpdateOn, config.IsSelfUpdateDisabled()},
 		{buttonStartServer, mainUIEnabled && boxInstalled && !boxRunning},
 		{buttonMebShare, true},
 		{buttonMakeBackup, mainUIEnabled && boxInstalled && !boxRunning},
@@ -546,7 +546,7 @@ func translateUILabels() {
 	ui.QueueMain(func() {
 		updateStartButtonLabel()
 		updateGetServerButtonLabel()
-		buttonSelfUpdateOn.SetText(xlate.Get("Turn Naksu self updates back on"))
+		//buttonSelfUpdateOn.SetText(xlate.Get("Turn Naksu self updates back on"))
 		buttonInstallExamServer.SetText(xlate.Get("Matriculation Exam"))
 		buttonDestroyServer.SetText(xlate.Get("Remove Exams"))
 		buttonRemoveServer.SetText(xlate.Get("Remove Server"))
@@ -662,18 +662,18 @@ func bindAdvancedNicSwitching() {
 
 func bindUIDisableOnStart(mainUIStatus chan string) {
 	// Define actions for main window
+	/*
+		if config.IsSelfUpdateDisabled() {
+			buttonSelfUpdateOn.Show()
+		} else {
+			buttonSelfUpdateOn.Hide()
+		}
 
-	if config.IsSelfUpdateDisabled() {
-		buttonSelfUpdateOn.Show()
-	} else {
-		buttonSelfUpdateOn.Hide()
-	}
-
-	buttonSelfUpdateOn.OnClicked(func(*ui.Button) {
-		log.Action("Enabling self-update")
-		config.SetSelfUpdateDisabled(false)
-	})
-
+		buttonSelfUpdateOn.OnClicked(func(*ui.Button) {
+			log.Action("Enabling self-update")
+			config.SetSelfUpdateDisabled(false)
+		})
+	*/
 	buttonStartServer.OnClicked(func(*ui.Button) {
 		startServerButtonClicked(mainUIStatus)
 	})
