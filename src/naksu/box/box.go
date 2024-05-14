@@ -31,7 +31,7 @@ const (
 	boxMinimumNumberOfCores = 2
 	boxMemorySizePercentage = 0.74        // 0.74 = box RAM size will be 74% of the host RAM size
 	boxLowMemoryLimit       = 8192 - 1024 // 8G minus 1G for display adapter
-	boxMemorySizeRaw		= 4096		//this is just now returned from calculateboxmemory directly
+	boxMemorySizeRaw        = 4096        //this is just now returned from calculateboxmemory directly
 )
 
 type boxStatus struct {
@@ -56,7 +56,7 @@ func calculateBoxCPUs() (int, error) {
 	if calculatedCores <= boxMinimumNumberOfCores {
 		return boxMinimumNumberOfCores, nil
 	}
-	
+
 	return calculatedCores, nil
 }
 
@@ -93,6 +93,8 @@ func getCreateNewBoxBasicCommands(boxName string, boxType string, boxVersion str
 			"--ostype", boxOSType,
 			"--firmware", "efi",
 			"--audio", "none",
+			"--paravirtprovider", "kvm",
+			"--graphicscontroller", "vmsvga",
 		},
 		{
 			"guestproperty", "set", boxName,
@@ -111,6 +113,7 @@ func getCreateNewBoxBasicCommands(boxName string, boxType string, boxVersion str
 			"storagectl", boxName,
 			"--add", "sata",
 			"--name", "SATA Controller",
+			"--hostiocache", "on",
 		},
 		{
 			"storageattach", boxName,
